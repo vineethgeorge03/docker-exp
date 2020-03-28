@@ -5,4 +5,4 @@ before_install:
   - docker build -t vineethgeorge03/docker-exp -f Dockerfile.dev .
 
 script:
-  - docker run vineethgeorgee03/docker-exp npm run test -- --coverage
+  - docker run vineethgeorge03/docker-exp npm run test -- --coverage
